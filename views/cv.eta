@@ -15,7 +15,7 @@
 
             <div id="hd">
                 <div class="yui-gc">
-                    <img src="static/RiimalaJouni.jpg" alt='Jouni Riimala'/>
+                <!--<img src = "static/RiimalaJouni">-->
                     <div class="yui-u first">
 
                         <h1>Jouni Riimala</h1>
