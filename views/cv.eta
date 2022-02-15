@@ -1,0 +1,225 @@
+<% layout("./layouts.eta") %>
+
+<HTML>
+
+<HEAD>
+    <!--<link href="masterCV.css" rel="stylesheet">-->
+    <title>CV - Jouni Riimala</title>
+</HEAD>
+
+<body>
+<% console.log(`${Deno.cwd()}`) %>
+    <p>
+    <div id="doc2" class="yui-t7">
+        <div id="inner">
+
+            <div id="hd">
+                <div class="yui-gc">
+                    <img src="static/RiimalaJouni.jpg" alt='Jouni Riimala'/>
+                    <div class="yui-u first">
+
+                        <h1>Jouni Riimala</h1>
+                        <h2>ICT-professional</h2>
+                    </div>
+
+                    <div class="yui-u">
+                        <div class="contact-info">
+                            <h3><a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a></h3>
+                            <h3>+358 50 3436251</h3>
+                        </div>
+                        <!--// .contact-info -->
+                    </div>
+                </div>
+                <!--// .yui-gc -->
+            </div>
+            <!--// hd -->
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b">
+
+                        <div class="yui-gf">
+                            <div class="yui-u first">
+                                <h2>Profile</h2>
+                            </div>
+                            <div class="yui-u">
+                                <p class="enlarge">
+                                <h3>
+                                    Motivated and target-oriented guy. Passionate from technical side of life and sport. Looking for role within sw engineering area or within tehcnical Project / Account Management.</h3>
+                                </p>
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+
+                        <div class="yui-gf">
+                            <div class="yui-u first">
+                                <h2>Skills</h2>
+                            </div>
+                            <div class="yui-u">
+
+                                <div class="talent">
+                                    <h2>General</h2>
+                                    <p>Experienced from software development, release management, project management.</p>
+                                </div>
+
+                                <div class="talent">
+                                    <h2>Project Management</h2>
+                                    <p>Years of experience from software project management. Great believer of agile way of working. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u first">
+                                <h2>Technical</h2>
+                            </div>
+                            <div class="yui-u">
+                                <ul class="talent">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>MySql</li>
+                                    <li>PHP</li>
+                                    <li>Javascript</li>
+                                    <li>Svelte (JS-lib)</li>
+                                    <li class="last">Deno (JS-lib)</li>
+
+                                </ul>
+
+                                <ul class="talent">
+                                    <li>Jira</li>
+                                    <li>Confluence</li>
+                                    <li>CVS / Subversion / TFS / Git</li>
+                                    <li>VMWARE, Virtualbox</li>
+                                    <li>MVC- architechture</li>
+                                    <li>OAK (The main architecture of middleware frameworks)</li>
+                                    <li class="last">Docker</li>
+                                </ul>
+
+                                <ul class="talent">
+                                    <li>Python</li>
+                                    <li>UiPath</li>
+                                    <li>Robot Framework</li>
+                                    <li>Java</li>
+                                    <li class="last">Qt</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!--// .yui-gf-->
+
+                        <div class="yui-gf">
+
+                            <div class="yui-u first">
+                                <h2>Experience</h2>
+                            </div>
+                            <!--// .yui-u -->
+
+                            <div class="yui-u">
+
+                                <div class="job">
+                                    <h2>Aalto Pro - SoftwarePoint</h2>
+                                    <h3>Web - Developper Training Program</h3>
+                                    <h4>2021 (mid september) - 2022 (march)</h4>
+                                    <p>Six month program with Helsinki Aalto University PRO - progaram where key was to learn web -technologies and Java programming.<br><br>
+                                        University level training consisted from 17 face to face learning days and from 19 remote days.<br>
+                                        Java training with Helsinki University Mooc courses and on work training.</p>
+                                </div>
+
+                                <div class="job">
+                                    <h2>Saranen - Integrata</h2>
+                                    <h3>Software Robotics Training Program</h3>
+                                    <h4>2020-2020</h4>
+                                    <p>Six month program where key was to learn Uipath. Within program used also Robot Framework, Python and C-sharp.</p>
+                                </div>
+
+                                <div class="job">
+                                    <h2>Kavo Kerr Group</h2>
+                                    <h3>Project Manager - DevOps Engineer</h3>
+                                    <h4>2012-2020</h4>
+                                    <p>Worked within project management (X-ray devices drivers) and then moved to devops roles.</p>
+                                </div>
+
+                                <div class="job">
+                                    <h2>Nokia Mobile Phones</h2>
+                                    <h3>Software Developer, Project Manager, R&D Manager..</h3>
+                                    <h4>1997-2012</h4>
+                                    <p>Worked in different location and organizations. Have been specializing to mobile platorms.</p>
+                                </div>
+
+                            </div>
+                            <!--// .yui-u -->
+                        </div>
+                        <!--// .yui-gf -->
+
+
+                        <div class="yui-gf">
+                            <h2>Recommendations</h2>
+                            <pre>
+
+                            </pre>
+                            <!--// .yui-u -->
+                            <div class="yui-first">
+
+                                <div class="job">
+                                    <h2>Jukka Jaakkola</h2>
+                                    <h3>Finance and Techology professional</h3>
+                                    <h4>jukka.jaakkola@gmail.com, +358408228454</h4>
+                                    <ul>
+                                        <p>Jouni is always able to tackle complex issues and is able to
+                                            provide solutions to problems that need innovative out-of the box thinking.</p>
+                                    </ul>
+                                </div>
+
+                                <div class="job">
+                                    <h2>Jouni Karkinen</h2>
+                                    <h3>Quality, Regulatory and Standards Specialist, Healthcare Industry at Healthcare Industry</h3>
+                                    <h4>jouni.karkinen@gmail.com, +358 408 271 298</h4>
+                                    <p>Target oriented and efficient, committed and has good problem solving skills</p>
+                                </div>
+
+                                <div class="job last">
+                                    <h2>Mikko Nevalainen</h2>
+                                    <h3>Design Manager at ABB</h3>
+                                    <h4>Mikko.A.Nevalainen@fi.abb.com , +358 50 3358 795</h4>
+                                    <p>Jouni in his work has proven to be target orientated, and is very willing to get feedback from
+                                        stakeholders. He also has a good overview of the bigger picture, which helps working together with
+                                        him.</p>
+                                </div>
+                            </div>
+                            <!--// .yui-u -->
+                        </div>
+                        <!--// .yui-gf -->
+                    </div>
+
+                    <div class="yui-gf last">
+                        <div class="yui-u first">
+                            <h2>Education</h2>
+                        </div>
+                        <div class="yui-u">
+                            <h2>Kemi-Tornio University of Applied Sciences</h2>
+                            <h3>Bachelor of Engineering Automatic Data Processing.</h3>
+                        </div>
+                    </div>
+                    <!--// .yui-gf -->
+                </div>
+                <!--// .yui-b -->
+            </div>
+            <!--// yui-main -->
+        </div>
+        <!--// bd -->
+
+        <div id="ft">
+            <p>Jouni Riimala <a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a> (+358) 50 3436251</p>
+            Updated <% new Date();%>
+        </div>
+        <!--// footer -->
+
+    </div><!-- // inner -->
+
+
+    </div>
+    <!--// doc -->
+
+
+</body>
+
+</HTML>

@@ -1,0 +1,14 @@
+<% layout("./layouts.eta") %>
+
+
+<h3>Logs</h3>
+
+<ul>
+<%= it.content %>
+
+        <form method = "GET" action = "/" >
+            <input type = "submit" value = "Alkuun"/>
+        </form>
+<ul>
+
+

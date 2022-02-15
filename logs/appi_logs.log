@@ -1,0 +1,474 @@
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+Sun Jan 16 2022 19:42:49 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+Sun Jan 16 2022 19:43:29 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+Sun Jan 23 2022 10:16:46 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+undefined
+
+Sun Jan 23 2022 14:39:52 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+Sun Jan 23 2022 14:48:43 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+Sun Jan 23 2022 19:43:06 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+Sun Jan 23 2022 19:43:34 GMT+0200 (Itä-Euroopan normaaliaika) huolto lisätty.
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+undefined
+
+Wed Jan 26 2022 15:35:25 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: sijanti is not defined
+
+Wed Jan 26 2022 15:36:27 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: null, null, 0, Tuusula, test, 2022-01-26
+
+Wed Jan 26 2022 15:41:21 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: null, null, 0, Tuusula, -, 2022-01-26
+
+Wed Jan 26 2022 15:43:01 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, -, 2022-01-26
+
+Mon Feb 07 2022 08:28:10 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07
+
+Mon Feb 07 2022 08:41:56 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07
+
+Mon Feb 07 2022 09:00:47 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07
+
+Mon Feb 07 2022 09:00:47 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07
+
+Mon Feb 07 2022 09:00:47 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 09:05:10 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 09:05:10 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: cosnole is not defined
+
+Mon Feb 07 2022 09:05:10 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 09:05:10 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: cosnole is not defined
+
+Mon Feb 07 2022 09:05:48 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 111
+
+Mon Feb 07 2022 09:05:48 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 111
+
+Mon Feb 07 2022 09:05:48 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 09:05:48 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 111
+
+Mon Feb 07 2022 09:05:48 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 09:07:46 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 111
+
+Mon Feb 07 2022 09:11:59 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 1000
+
+Mon Feb 07 2022 10:06:54 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 1
+
+Mon Feb 07 2022 10:08:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 10:08:03 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 10:08:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 10:08:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 10:08:03 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 10:09:29 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 3
+
+Mon Feb 07 2022 10:08:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 2
+
+Mon Feb 07 2022 10:08:03 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 10:09:29 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 3
+
+Mon Feb 07 2022 10:09:29 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: duplicate key value violates unique constraint "motoservice_maint_key"
+
+Mon Feb 07 2022 10:18:16 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:24:52 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: document is not defined
+
+Mon Feb 07 2022 10:30:20 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:34:05 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:34:05 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:41:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:34:05 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:41:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:44:10 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:51:28 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:51:28 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, null, 2022-02-07, 0
+
+Mon Feb 07 2022 10:54:10 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, Conrollerin formdata saatana vieköön lukee name parametria eikä id:eetä ..., oliskohan se näin., 2022-02-07, 0
+
+Mon Feb 07 2022 14:06:03 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, Pelti, 2022-02-07, 100
+
+Mon Feb 07 2022 14:09:01 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Pelti, 2022-02-07, 200
+
+Mon Feb 07 2022 14:09:01 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Pelti, 2022-02-07, 200
+
+Mon Feb 07 2022 14:09:03 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: column "item" of relation "costtable" does not exist
+
+Mon Feb 07 2022 14:09:36 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Pelti, 2022-02-07, 200
+
+Mon Feb 07 2022 17:45:00 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford, Pikahuolto, 0, Tuusula, , 2022-02-07, 222
+
+Mon Feb 07 2022 17:47:45 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford, Pikahuolto, 0, Tuusula, , 2022-02-07, 2222
+
+Mon Feb 07 2022 18:03:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, , 2022-02-07, 20000
+
+Mon Feb 07 2022 18:05:35 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford, Pikahuolto, 0, Tuusula, , 2022-02-07, 500
+
+Mon Feb 07 2022 18:10:25 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 0
+
+Mon Feb 07 2022 18:10:25 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 0
+
+Mon Feb 07 2022 18:10:26 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: improper qualified name (too many dotted names): new.motoservice.moto.includes
+
+Mon Feb 07 2022 18:13:27 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 0
+
+Mon Feb 07 2022 18:13:27 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 0
+
+Mon Feb 07 2022 18:13:28 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 18:20:52 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 670
+
+Mon Feb 07 2022 18:20:52 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 670
+
+Mon Feb 07 2022 18:20:53 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 18:22:53 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 888
+
+Mon Feb 07 2022 18:22:53 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 888
+
+Mon Feb 07 2022 18:22:54 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 18:31:35 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 18:31:35 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 18:31:36 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:28:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:05 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:28:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:05 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:28:35 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:05 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:28:35 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 10
+
+Mon Feb 07 2022 19:28:35 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:27 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 30
+
+Mon Feb 07 2022 19:32:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:32:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 20
+
+Mon Feb 07 2022 19:35:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:35:27 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 30
+
+Mon Feb 07 2022 19:35:27 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:36:07 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 80
+
+Mon Feb 07 2022 19:36:07 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 80
+
+Mon Feb 07 2022 19:36:07 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: missing FROM-clause entry for table "motoservice"
+
+Mon Feb 07 2022 19:43:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 3330
+
+Mon Feb 07 2022 19:43:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 3330
+
+Mon Feb 07 2022 19:44:31 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford, Pikahuolto, 0, Tuusula, pelti, 2022-02-07, 450
+
+Mon Feb 07 2022 19:43:04 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 3330
+
+Mon Feb 07 2022 19:44:31 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford, Pikahuolto, 0, Tuusula, pelti, 2022-02-07, 450
+
+Mon Feb 07 2022 19:44:31 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: invalid input syntax for type integer: "pelti"
+
+Mon Feb 07 2022 19:46:40 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX 250F (2008), Pikahuolto, 0, Tuusula, test, 2022-02-07, 80
+
+Mon Feb 07 2022 19:51:17 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-07, 880
+
+Wed Feb 09 2022 20:11:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, test, 0, Tuusula, test, 2022-02-09, 3000
+
+Wed Feb 09 2022 20:11:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, test, 0, Tuusula, test, 2022-02-09, 3000
+
+Wed Feb 09 2022 20:19:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX-250F, Pikahuolto, 0, Tuusula, Jäähdyttimet (oikea ja vasen) hankittu 24mx(ei asennettu, hinta 99 eli 100). Aikaisemmin hommattu kaksi ilmanputsaria + seisontatuki (näiden hinta arviolta oli 50)., 2022-01-28, 150
+
+Wed Feb 09 2022 20:11:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, test, 0, Tuusula, test, 2022-02-09, 3000
+
+Wed Feb 09 2022 20:19:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX-250F, Pikahuolto, 0, Tuusula, Jäähdyttimet (oikea ja vasen) hankittu 24mx(ei asennettu, hinta 99 eli 100). Aikaisemmin hommattu kaksi ilmanputsaria + seisontatuki (näiden hinta arviolta oli 50)., 2022-01-28, 150
+
+Wed Feb 09 2022 20:19:02 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: value too long for type character varying(160)
+
+Wed Feb 09 2022 20:11:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, test, 0, Tuusula, test, 2022-02-09, 3000
+
+Wed Feb 09 2022 20:19:02 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX-250F, Pikahuolto, 0, Tuusula, Jäähdyttimet (oikea ja vasen) hankittu 24mx(ei asennettu, hinta 99 eli 100). Aikaisemmin hommattu kaksi ilmanputsaria + seisontatuki (näiden hinta arviolta oli 50)., 2022-01-28, 150
+
+Wed Feb 09 2022 20:19:02 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: value too long for type character varying(160)
+
+Wed Feb 09 2022 20:22:32 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Kawasaki KX-250F, Pikahuolto, 0, Tuusula, Jäähdyttimet (oikea ja vasen) hankittu 24mx(ei asennettu, hinta 99 eli 100). Aikaisemmin hommattu kaksi ilmanputsaria + seisontatuki (näiden hinta arviolta oli 50)., 2022-01-28, 150
+
+Wed Feb 09 2022 21:35:15 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Kesärenkaat peltivanteilla hankittu Hyvinkäältä. Renkaiden mitat 215/75R16C., 2022-02-09, 250
+
+Wed Feb 09 2022 21:35:15 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Kesärenkaat peltivanteilla hankittu Hyvinkäältä. Renkaiden mitat 215/75R16C., 2022-02-09, 250
+
+Wed Feb 09 2022 21:35:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: value too long for type character varying(60)
+
+Wed Feb 09 2022 21:35:15 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Kesärenkaat peltivanteilla hankittu Hyvinkäältä. Renkaiden mitat 215/75R16C., 2022-02-09, 250
+
+Wed Feb 09 2022 21:35:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: value too long for type character varying(60)
+
+Wed Feb 09 2022 21:38:55 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, Kesärenkaat peltivanteilla hankittu Hyvinkäältä. Renkaiden mitat 215/75R16C., 2022-02-09, 250
+
+Sun Feb 13 2022 12:22:31 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, , 2022-02-13, Lokasuoja, null
+
+Sun Feb 13 2022 12:22:31 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, , 2022-02-13, Lokasuoja, null
+
+Sun Feb 13 2022 12:22:31 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:24:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, null
+
+Sun Feb 13 2022 12:24:13 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, null
+
+Sun Feb 13 2022 12:24:13 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:27:11 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 0
+
+Sun Feb 13 2022 12:27:11 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 0
+
+Sun Feb 13 2022 12:27:11 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:30:21 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 0
+
+Sun Feb 13 2022 12:30:21 GMT+0200 (Itä-Euroopan normaaliaika): Huolto lisätty seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 0
+
+Sun Feb 13 2022 12:30:21 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:35:18 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:35:18 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:35:18 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:54:00 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:54:00 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:54:00 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:55:05 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:55:05 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:55:06 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:55:57 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:55:57 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:55:58 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: latest_id is not defined
+
+Sun Feb 13 2022 12:56:49 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:56:49 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:56:50 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 12:58:42 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:58:42 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 12:58:42 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 13:03:20 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 13:03:20 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 13:03:21 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 13:05:18 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 13:05:18 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 13:05:19 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: bind message supplies 7 parameters, but prepared statement "" requires 8
+
+Sun Feb 13 2022 13:07:15 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Pikahuolto, 0, Tuusula, test, 2022-02-13, Lokasuoja, 2000
+
+Sun Feb 13 2022 16:17:00 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, Työmies on kaljansa ansainnut., 2022-02-13, Kaljaa ja lakua, 27
+
+Sun Feb 13 2022 16:17:00 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, Työmies on kaljansa ansainnut., 2022-02-13, Kaljaa ja lakua, 27
+
+Sun Feb 13 2022 16:17:00 GMT+0200 (Itä-Euroopan normaaliaika)_error: Error: Connection to the database has been terminated
+
+Sun Feb 13 2022 16:32:15 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, Työmies on kaljansa ansainnut., 2022-02-13, Kaljaa ja lakua, 27
+
+Sun Feb 13 2022 16:32:15 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, Työmies on kaljansa ansainnut., 2022-02-13, Kaljaa ja lakua, 27
+
+Sun Feb 13 2022 16:32:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: invalid input syntax for type integer: "{"17"}"
+
+Sun Feb 13 2022 16:33:56 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, osa, 10
+
+Sun Feb 13 2022 16:33:56 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, osa, 10
+
+Sun Feb 13 2022 16:33:57 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: invalid input syntax for type integer: "{"17"}"
+
+Sun Feb 13 2022 16:36:13 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, osa, 2
+
+Sun Feb 13 2022 16:36:13 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, osa, 2
+
+Sun Feb 13 2022 16:36:14 GMT+0200 (Itä-Euroopan normaaliaika)_error: PostgresError: invalid input syntax for type integer: "{"17"}"
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:47:41 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:47:41 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:47:42 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:47:41 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:48:08 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokari, 2000
+
+Sun Feb 13 2022 16:47:42 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:44:14 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:44:16 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:47:41 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokasuoja, 20000
+
+Sun Feb 13 2022 16:47:42 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:48:08 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokari, 2000
+
+Sun Feb 13 2022 16:48:08 GMT+0200 (Itä-Euroopan normaaliaika)_error: ReferenceError: osa is not defined
+
+Sun Feb 13 2022 16:55:25 GMT+0200 (Itä-Euroopan normaaliaika): itemController, huolto lisätään seuraavilla parametreillä: Ford Transit, Hankinta, 0, Tuusula, , 2022-02-13, Lokari, 2000
+
