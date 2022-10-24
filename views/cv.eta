@@ -75,13 +75,17 @@
                             <div class="yui-u">
                                 <ul class="talent">
                                     <li>HTML</li>
-                                    <li>CSS</li>
                                     <li>MySql</li>
                                     <li>PHP</li>
-                                    <li>Javascript</li>
                                     <li>Svelte (JS-lib)</li>
-                                    <li class="last">Deno (JS-lib)</li>
-
+                                    <li>Deno (JS-lib)</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>CSS </li>
+                                    <li>Postgres</li>
+                                    <li>Javascript</li>
+                                    <li>React (JS-lib)</li>
+                                    <li class="last">Node (JS-lib)</li>
                                 </ul>
 
                                 <ul class="talent">
