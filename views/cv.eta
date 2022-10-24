@@ -44,7 +44,7 @@
                             <div class="yui-u">
                                 <p class="enlarge">
                                 <h3>
-                                    Motivated and target-oriented guy. Passionate from technical side of life and sport. Looking for role within sw engineering area or within tehcnical Project / Account Management.</h3>
+                                    Motivated and target-oriented guy. Passionate from technical side of life and sport. Looking for role within sw development.</h3>
                                 </p>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         <!--// .yui-gf -->
                         <div class="yui-gf">
                             <div class="yui-u first">
-                                <h2>Technical</h2>
+                                <h2>Tech stack</h2>
                             </div>
                             <div class="yui-u">
                                 <ul class="talent">
@@ -102,10 +102,6 @@
                                     <li>OAK (The main architecture of middleware frameworks)</li>
                                     <li class="last">Docker</li>
                                 </ul>
-
-                                <ul class="talent">
-                                </ul>
-
                             </div>
                         </div>
                         <!--// .yui-gf-->
