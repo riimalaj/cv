@@ -218,7 +218,7 @@
 
     <div id="ft">
       <p>Jouni Riimala <a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a> (+358) 50 3436251</p>
-      Updated <% new Date();%>
+      Updated <%= it.pvm %>
     </div>
     <!--// footer -->
 
