@@ -20,8 +20,8 @@ console.log('Dataa tiedostoon logs/appi_logs_' + tDate + '.log');
 debugger;
 
 const showMain = async ({ response }) => {
-    console.log('showMain called');
-    response.body = await renderFile('../views/cv.eta');
+    console.log('cv called');
+    response.body = await renderFile('../views/cv.eta', {pvm: new Date().toLocaleDateString()});
 };
 
 const showLogFile = async ({ response }) => {
