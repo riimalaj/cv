@@ -133,7 +133,7 @@
                   <p>Worked within project management (X-ray devices drivers) and then moved to devops roles.</p>
                 </div>
 
-                <div class="job">
+                <div class="job-last">
                   <h2>Nokia Mobile Phones</h2>
                   <h3>Software Developer, Project Manager, R&D Manager..</h3>
                   <h4>1997-2012</h4>
@@ -144,39 +144,47 @@
               <!--// .yui-u -->
             </div>
             <!--// .yui-gf -->
-            <div class="yui-gf last">
+            <div class="yui-gf">
               <div class="yui-u first">
                 <h2>Education</h2>
               </div>
               <div class="yui-u">
+                <!-- yui-u edu-->
                 <div class="job">
                   <h2>Aalto Pro - SoftwarePoint</h2>
                   <h3>Web - Developper Training Program</h3>
                   <h4>2021 (mid september) - 2022 (march)</h4>
-                  <p>Six month program with Helsinki Aalto University PRO - progaram where key was to learn web -technologies and Java programming.<br><br>
-                    University level training consisted from 17 face to face learning days and from 19 remote days.<br>
-                    Java training with Helsinki University Mooc courses and on work training.</p>
+                  <br>Six month program with Helsinki Aalto University PRO - progaram where key was to learn web -technologies and Java programming.<br><br>
+                  University level training consisted from 17 face to face learning days and from 19 remote days.<br>
+                  Java training with Helsinki University Mooc courses and on work training.
                 </div>
 
                 <div class="job">
                   <h2>Saranen - Integrata</h2>
                   <h3>Software Robotics Training Program</h3>
                   <h4>2020-2020</h4>
-                  <p>Six month program where key was to learn Uipath. Within program used also Robot Framework, Python and C-sharp.</p>
+                  <br>Six month program where key was to learn Uipath. Within program used also Robot Framework, Python and C-sharp.
                 </div>
 
-                <h2>Kemi-Tornio University of Applied Sciences</h2>
-                <h3>Bachelor of Engineering Automatic Data Processing.</h3>
+                <div class="job-last">
+                  <h2>Kemi-Tornio University of Applied Sciences</h2>
+                  <h3>Bachelor of Engineering Automatic Data Processing.</h3>
+                </div>
               </div>
+              <!--yui-u-edu-->
             </div>
-            <!--// .yui-gf -->
+            <!--yui-gf last-->
+
+
             <div class="yui-gf">
+              <!--yui-gf recom-tittle-->
               <h2>Recommendations</h2>
               <pre>
 
         </pre>
-              <!--// .yui-u -->
+
               <div class="yui-u">
+                <!--// .yui-u recom-->
 
                 <div class="job">
                   <h2>Jukka Jaakkola</h2>
@@ -192,43 +200,41 @@
                   <h2>Jouni Karkinen</h2>
                   <h3>Quality, Regulatory and Standards Specialist, Healthcare Industry at Healthcare Industry</h3>
                   <h4>jouni.karkinen@gmail.com, +358 408 271 298</h4>
-                  <p>Target oriented and efficient, committed and has good problem solving skills</p>
+                  <br>Target oriented and efficient, committed and has good problem solving skills.
                 </div>
 
                 <div class="job last">
                   <h2>Mikko Nevalainen</h2>
                   <h3>Design Manager at ABB</h3>
                   <h4>Mikko.A.Nevalainen@fi.abb.com , +358 50 3358 795</h4>
-                  <p>Jouni in his work has proven to be target orientated, and is very willing to get feedback from
-                    stakeholders. He also has a good overview of the bigger picture, which helps working together with
-                    him.</p>
+                  <br>Jouni in his work has proven to be target orientated, and is very willing to get feedback from
+                  stakeholders. He also has a good overview of the bigger picture, which helps working together with
+                  him.
                 </div>
+
               </div>
-              <!--// .yui-u -->
+              <!--// .yui-u recom -->
             </div>
-            <!--// .yui-gf -->
+            <!--// .yui-gf recom - tittle -->
 
           </div>
           <!--// yui-main -->
         </div>
         <!--// .yui-b -->
-      </div>
+
+        <div id="ft">
+          <p>Jouni Riimala<br>
+            <a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a>
+            <br>(+358) 50 3436251
+            <br><a href="https://www.linkedin.com/in/jouni-riimala-04330/">LinkedIn profile</a>
+          </p>
+          Updated <%= it.pvm %>
+        </div>
+        <!--// footer -->
+      </div><!-- // inner -->
     </div>
     <!--// bd -->
-
-    <div id="ft">
-      <p>Jouni Riimala <a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a> (+358) 50 3436251</p>
-      Updated <%= it.pvm %>
-    </div>
-    <!--// footer -->
-
-  </div><!-- // inner -->
-
-
-  </div>
-  <!--// doc -->
-
-
+  </div><!--// doc2 -->
 </body>
 
 </HTML>
