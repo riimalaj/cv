@@ -13,6 +13,10 @@ import * as path from 'https://deno.land/std/path/mod.ts';
 import { readline } from 'https://deno.land/x/readline@v1.1.0/mod.ts';
 import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
 import { getPublicIpv4 } from "https://deno.land/x/masx200_get_public_ip_address/mod.ts";
+import { config } from "https://deno.land/x/dotenv/mod.ts";
+
+console.log(config());
+const {IP_KEY} = config()
 
 const netAddr = await getNetworkAddr()
 
@@ -24,12 +28,34 @@ console.log('Your local network address, ', netAddr)
 const publicIp = await getPublicIpv4()
 console.log("Your public ip:", publicIp)
 
+
 debugger;
 
-const paivitaNettiData = async () => {
-const netUpdateResp = await itemServices.updateTracker(publicIp)
+let loc = {
+    ip : "",
+    continent_name : "",
+    country : "",
+    city : "",
+    region : "",
+    zip : ""
 }
 
+const paivitaNettiData = async () => {
+const locationRes = await fetch(`http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`)
+.then(res => res.json())
+.then(data => {
+    loc.ip = data.ip,
+    loc.continent = data.continent_name,
+    loc.country = data.country_name,
+    loc.region = data.region_name,
+    loc.city = data.city,
+    loc.zip = data.zip
+})
+
+console.log(loc)
+
+const netUpdateResp = await itemServices.updateTracker(loc)
+}
 paivitaNettiData()
 
 const showMain = async ({ response }) => {

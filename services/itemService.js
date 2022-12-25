@@ -17,12 +17,15 @@ CREATE TABLE tracker (
 */
 
 
-const updateTracker = async (ip, res) => {
+const updateTracker = async (loc, res) => {
+const {ip, continent, country, region, city, zip} = loc;
+
+
     console.log("updating tracker table")
-    console.log("itemService ip:", ip)
+    console.log("ip:", ip + ", continent:", continent + ", country:", country + ", region:", region + ", city:", city + ", zip:", zip)
     await client.connect();
     res = await client.queryArray(
-        "INSERT INTO tracker (ip) VALUES($1)", ip
+        "INSERT INTO locdata (ip, continent, country, region, city, zip ) VALUES($1, $2, $3, $4, $5, $6)", ip, continent, country, region, city, zip
     );
     await client.end();
     console.log('IP record ', res);
