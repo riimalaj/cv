@@ -28,6 +28,7 @@ console.log('Your local network address, ', netAddr)
 const publicIp = await getPublicIpv4()
 console.log("Your public ip:", publicIp)
 
+const SECRET = Deno.env.get("IP_KEY")
 
 debugger;
 
@@ -40,8 +41,9 @@ let loc = {
     zip : ""
 }
 
+
 const paivitaNettiData = async () => {
-const locationRes = await fetch(`http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`)
+const locationRes = await fetch(`http://api.ipstack.com/${publicIp}?access_key=${SECRET}`)
 .then(res => res.json())
 .then(data => {
     loc.ip = data.ip,
