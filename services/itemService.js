@@ -3,6 +3,32 @@ import { client } from '../database/db.js';
 //const databaseUrl = Deno.env.get("DATABASE_URL");
 debugger;
 
+/*
+CREATE TABLE tracker (
+        id serial PRIMARY KEY,
+        ip VARCHAR (255),
+        hostname VARCHAR (255),
+        locCountry VARCHAR (100),
+        locCity VARCHAR (100),
+        locAddr VARCHAR (100),
+	created_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+*/
+
+
+const updateTracker = async (ip, res) => {
+    console.log("updating tracker table")
+    console.log("itemService ip:", ip)
+    await client.connect();
+    res = await client.queryArray(
+        "INSERT INTO tracker (ip) VALUES($1)", ip
+    );
+    await client.end();
+    console.log('IP record ', res);
+    return res;    
+}
+
 const tarkistaHuoltoId = async (response) => {
     console.log(tarkistaHuoltoId);
     await client.connect();
@@ -116,4 +142,4 @@ const haeHankinnat = async () => {
     return res.rows;
 };
 
-export { tarkistaHuoltoId, huoltoKantaan, huolot, haeHankinnat, haeSumma };
+export { updateTracker, tarkistaHuoltoId, huoltoKantaan, huolot, haeHankinnat, haeSumma };

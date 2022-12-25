@@ -7,17 +7,30 @@ import {
     ensureFileSync,
 } from 'https://deno.land/std/fs/mod.ts';
 import { format } from 'https://deno.land/std@0.91.0/datetime/mod.ts';
-import { getIP } from 'https://deno.land/x/get_ip/mod.ts';
+import * as getIp from "https://deno.land/x/get_ip@v2.0.0/mod.ts";
 import { readLines } from 'https://deno.land/std/io/mod.ts';
 import * as path from 'https://deno.land/std/path/mod.ts';
 import { readline } from 'https://deno.land/x/readline@v1.1.0/mod.ts';
+import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
+import { getPublicIpv4 } from "https://deno.land/x/masx200_get_public_ip_address/mod.ts";
+
+const netAddr = await getNetworkAddr()
 
 var log = [];
 var temp = format(new Date(), 'yyyy-MM-dd HH:mm:ss');
 var tDate = temp.replace(' ', '_').replace(':', '');
 console.log('Dataa tiedostoon logs/appi_logs_' + tDate + '.log');
+console.log('Your local network address, ', netAddr)
+const publicIp = await getPublicIpv4()
+console.log("Your public ip:", publicIp)
 
 debugger;
+
+const paivitaNettiData = async () => {
+const netUpdateResp = await itemServices.updateTracker(publicIp)
+}
+
+paivitaNettiData()
 
 const showMain = async ({ response }) => {
     console.log('cv called');
@@ -58,4 +71,4 @@ const loggaus = async (log) => {
     });
 };
 
-export { showMain, showLogFile, loggaus };
+export { paivitaNettiData, showMain, showLogFile, loggaus };
