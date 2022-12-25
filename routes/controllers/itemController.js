@@ -65,6 +65,13 @@ const showMain = async ({ response }) => {
     response.body = await renderFile('../views/cv.eta', {pvm: new Date().toLocaleDateString()});
 };
 
+const showVisitors = async ({ response }) => {
+    console.log("Fetching visitors")
+    response.body = await renderFile("../views/visitors.eta", {
+      visitors: await itemServices.getVisitors() 
+    });
+  };
+
 const showLogFile = async ({ response }) => {
     console.log('itemController, showLogFile');
     const data = await Deno.readTextFile('logs/appi_logs.log');
@@ -99,4 +106,4 @@ const loggaus = async (log) => {
     });
 };
 
-export { paivitaNettiData, showMain, showLogFile, loggaus };
+export { paivitaNettiData, showMain, showLogFile, loggaus, showVisitors };

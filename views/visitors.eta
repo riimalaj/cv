@@ -1,0 +1,41 @@
+<% layout("./layouts.eta") %>
+
+<head>
+  <style>
+    .tablinks {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<form action="/" method="get">
+  <input type="submit" value="takaisin" id="back">
+</form>
+
+
+
+  <h3 id = "visitors--tittle">Visitors</h3>
+
+  <table id = "visitors">
+    <th>
+      <tr>
+        <th>IP</th>
+        <th>Manner</th>
+        <th>Maa</th>
+        <th>Lääni</th>
+        <th>Kaupunki</th>
+        <th>Postinumero</th>
+      </tr>
+
+      <% it.visitors.forEach((i) =>{%>
+      <tr>
+        <td><%= i[1] %></td>
+        <td><%= i[2] %></td>
+        <td><%= i[3] %></td>
+        <td><%= i[4] %></td>
+        <td><%= i[5] %></td>
+        <td><%= i[6] %></td>
+      </tr>
+      <%}); %>
+  </table>
+</div>
