@@ -25,6 +25,7 @@
         <th>Lääni</th>
         <th>Kaupunki</th>
         <th>Postinumero</th>
+        <th>Kirjautunut</th>
       </tr>
 
       <% it.visitors.forEach((i) =>{%>
@@ -35,6 +36,7 @@
         <td><%= i[4] %></td>
         <td><%= i[5] %></td>
         <td><%= i[6] %></td>
+        <td><%= i[8].toLocaleString('fi-FI') %></td>
       </tr>
       <%}); %>
   </table>
