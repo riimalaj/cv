@@ -24,7 +24,7 @@
 
           <div class="yui-u">
             <div class="contact-info">
-              <h3><a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a></h3>
+              <h3><a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a></h3>
               <h3>+358 50 3436251</h3>
             </div>
             <!--// .contact-info -->
@@ -44,8 +44,8 @@
               <div class="yui-u">
                 <p class="enlarge">
                 <h3>
-                  Motivated and target-oriented guy. Passionate from technical side of life and sport.<br>
-                  Motto: Automate everything what make sense.</h3>
+                  Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling.<br>
+                  Motto: Automate everything..</h3>
                 </p>
               </div>
             </div>
@@ -224,7 +224,7 @@
 
         <div id="ft">
           <p>Jouni Riimala<br>
-            <a href="mailto:jriimala@gmail.com">jriimala@gmail.com</a>
+            <a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a>
             <br>(+358) 50 3436251
             <br><a href="https://www.linkedin.com/in/jouni-riimala-04330/">LinkedIn profile</a>
           </p>
@@ -234,7 +234,8 @@
       </div><!-- // inner -->
     </div>
     <!--// bd -->
-  </div><!--// doc2 -->
+  </div>
+  <!--// doc2 -->
 </body>
 
 </HTML>
