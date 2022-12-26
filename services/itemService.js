@@ -15,6 +15,18 @@ const getVisitors = async () => {
   }
 };
 
+const checkDup = async (ip) => {
+  await client.connect()
+  console.log(ip)
+  console.log(typeof(ip))
+  const sql = "SELECT count(*) FROM locdata WHERE ip = '" + ip + "'"
+  console.log(sql)
+  const dupRes = await client.queryArray(sql)
+  console.log("dupResp count:", dupRes.rowCount)
+  await client.end()
+  return dupRes.rowCount
+}
+
 const updateTracker = async (loc, res) => {
   const { ip, continent, country, region, city, zip } = loc;
 
@@ -28,9 +40,10 @@ const updateTracker = async (loc, res) => {
     city + ", zip:",
     zip
   );
-  await client.connect();
+
+  await client.connect();  
   if (ip != null){
-  res = await client.queryArray(
+    res = await client.queryArray(
     "INSERT INTO locdata (ip, continent, country, region, city, zip ) VALUES($1, $2, $3, $4, $5, $6)",
     ip,
     continent,
@@ -159,6 +172,7 @@ const haeHankinnat = async () => {
 };
 
 export {
+  checkDup,
   getVisitors,
   updateTracker,
   tarkistaHuoltoId,
