@@ -60,7 +60,7 @@ const paivitaNettiData = async () => {
   console.log(loc);
   let dupCheckResp = await itemServices.checkDup(loc.ip);
   console.log("dupCheckResp:", dupCheckResp);
-  if (dupCheckResp < 1) {
+  if (dupCheckResp < 1 && loc.ip != "3.75.158.163") {
     const netUpdateResp = await itemServices.updateTracker(loc);
   } else {
     console.log("Allready there, so let's not duplicate.");
@@ -119,4 +119,4 @@ const loggaus = async (log) => {
   });
 };
 
-export { notEurope, paivitaNettiData, showMain, showLogFile, loggaus, showVisitors };
+export { paivitaNettiData, showMain, showLogFile, loggaus, showVisitors };
