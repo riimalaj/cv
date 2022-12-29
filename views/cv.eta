@@ -15,11 +15,12 @@
 
       <div id="hd">
         <div class="yui-gc">
-          <!--<img src = "static/RiimalaJouni">-->
           <div class="yui-u first">
 
-            <h1>Jouni Riimala</h1>
+            <h1><a href = "/author" target = "_blank">Jouni Riimala</a></h1>
+
             <h2>ICT-professional</h2>
+
           </div>
 
           <div class="yui-u">
@@ -45,7 +46,7 @@
                 <p class="enlarge">
                 <h3>
                   Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling.<br>
-                  Motto: Automate everything..</h3>
+                  Motto: Automate everything.</h3>
                 </p>
               </div>
             </div>

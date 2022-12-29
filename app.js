@@ -1,20 +1,14 @@
-import {
-    Application,
-    HttpServerStd,
-    Router,
-    Context,
-} from 'https://deno.land/x/oak@v9.0.1/mod.ts';
+import { Application, send } from 'https://deno.land/x/oak/mod.ts';
 import routes from './routes/routes.js';
 import { configure } from './deps.js';
-import { listenAndServe } from 'https://deno.land/std@0.113.0/http/server.ts';
+import { serve } from 'https://deno.land/std@0.113.0/http/server.ts';
+import { serveFile } from 'https://deno.land/std@0.160.0/http/file_server.ts';
 
 configure({
     views: `${Deno.cwd()}/views/`,
 });
 
-const app = new Application({
-    serverConstructor: HttpServerStd,
-});
+const app = new Application();
 
 let port = 8888;
 if (Deno.args.length > 0) {
