@@ -13,12 +13,7 @@ import * as path from 'https://deno.land/std/path/mod.ts';
 import { readline } from 'https://deno.land/x/readline@v1.1.0/mod.ts';
 import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
 import { getPublicIpv4 } from 'https://deno.land/x/masx200_get_public_ip_address/mod.ts';
-import { config } from 'https://deno.land/x/dotenv/mod.ts';
-import { serveFile } from 'https://deno.land/std@0.160.0/http/file_server.ts';
-
-console.log(config());
-const { IP_KEY } = config();
-console.log('IP_KEY:', IP_KEY);
+import { config, parse} from 'https://deno.land/x/dotenv/mod.ts';
 
 var check = false;
 
@@ -31,8 +26,9 @@ console.log('Dataa tiedostoon logs/appi_logs_' + tDate + '.log');
 console.log('Your local network address, ', netAddr);
 const publicIp = await getPublicIpv4();
 console.log('Your public ip:', publicIp);
-
-const SECRET = Deno.env.get('IP_KEY');
+console.log(config({export:true}))
+const IP_KEY = Deno.env.get("IPKEY");
+console.log("IP_KEY:", IP_KEY)
 
 let loc = {
     ip: '',
