@@ -30,6 +30,11 @@ console.log(config({export:true}))
 const IP_KEY = Deno.env.get("IPKEY");
 console.log("IP_KEY:", IP_KEY)
 
+if (!IP_KEY || IP_KEY === ""){
+    const configData = await config();
+    IP_KEY = configData["IP_KEY"];
+}
+
 let loc = {
     ip: '',
     continent_name: '',
