@@ -30,19 +30,20 @@ const checkDup = async (ip) => {
 const updateTracker = async (loc, res) => {
   const { ip, continent, country, region, city, zip } = loc;
 
-  console.log("updating tracker table");
-  console.log(
+  console.log("updating tracker table, loc:", loc.ip);
+
+  /*console.log(
     "ip:",
-    ip + ", continent:",
+    loc.ip + ", continent:",
     continent + ", country:",
     country + ", region:",
     region + ", city:",
     city + ", zip:",
     zip
-  );
+  );*/
 
-  await client.connect();  
-  if (ip != null){
+  await client.connect();
+  if (ip != null && ip != undefined){
     res = await client.queryArray(
     "INSERT INTO locdata (ip, continent, country, region, city, zip ) VALUES($1, $2, $3, $4, $5, $6)",
     ip,
@@ -52,6 +53,8 @@ const updateTracker = async (loc, res) => {
     city,
     zip
   )
+} else{
+  console.log("ip not known")
 }
   await client.end();
   console.log("IP record ", res);

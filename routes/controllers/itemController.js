@@ -13,9 +13,9 @@ import * as path from 'https://deno.land/std/path/mod.ts';
 import { readline } from 'https://deno.land/x/readline@v1.1.0/mod.ts';
 import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
 import { getPublicIpv4 } from 'https://deno.land/x/masx200_get_public_ip_address/mod.ts';
-import { config, parse} from 'https://deno.land/x/dotenv/mod.ts';
+import { config, parse } from 'https://deno.land/x/dotenv/mod.ts';
 
-var check = false;
+//var check = false;
 
 const netAddr = await getNetworkAddr();
 
@@ -26,13 +26,14 @@ console.log('Dataa tiedostoon logs/appi_logs_' + tDate + '.log');
 console.log('Your local network address, ', netAddr);
 const publicIp = await getPublicIpv4();
 console.log('Your public ip:', publicIp);
-console.log(config({export:true}))
-const IP_KEY = Deno.env.get("IPKEY");
-console.log("IP_KEY:", IP_KEY)
+console.log(config({ export: true }));
+const IP_KEY = Deno.env.get('IPKEY');
+console.log('IP_KEY:', IP_KEY);
+let check = true;
 
-if (!IP_KEY || IP_KEY === ""){
+if (!IP_KEY || IP_KEY === '') {
     const configData = await config();
-    IP_KEY = configData["IP_KEY"];
+    IP_KEY = configData['IP_KEY'];
 }
 
 let loc = {
@@ -44,34 +45,39 @@ let loc = {
     zip: '',
 };
 
-const paivitaNettiData = async () => {
-    check = true;
-    const locationRes = await fetch(
-        `http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`
-    )
+const paivitaNettiData = async (publicIp) => {
+    console.log('paivitaNettiData, publicIp:', publicIp);
+    await fetch(`http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`)
         .then((res) => res.json())
         .then((data) => {
-            (loc.ip = data.ip),
-                (loc.continent = data.continent_name),
-                (loc.country = data.country_name),
-                (loc.region = data.region_name),
-                (loc.city = data.city),
-                (loc.zip = data.zip);
+            if (data.error.code === 104) {
+                console.log('IP check limit reached from this month');
+                loc.ip = 'IP check limit reached from this month';
+                check = false;
+            } else {
+                (loc.ip = data.ip),
+                    (loc.continent = data.continent_name),
+                    (loc.country = data.country_name),
+                    (loc.region = data.region_name),
+                    (loc.city = data.city),
+                    (loc.zip = data.zip);
+            }
         });
 
-    console.log(loc);
-    let dupCheckResp = await itemServices.checkDup(loc.ip);
-    console.log('dupCheckResp:', dupCheckResp);
-    if (dupCheckResp < 1 && loc.ip != '3.75.158.163') {
-        const netUpdateResp = await itemServices.updateTracker(loc);
-    } else {
-        console.log("Allready there, so let's not duplicate.");
+    if (check === true) {
+        console.log("check = true ...", loc);
+        let dupCheckResp = await itemServices.checkDup(loc.ip);
+        console.log('dupCheckResp:', dupCheckResp);
+
+        if (loc.ip != '3.75.158.163') {
+            await itemServices.updateTracker(loc);
+        } else {
+            console.log("Allready there, so let's not duplicate.");
+        }
     }
 };
 
-if (check === false) {
-    paivitaNettiData();
-}
+paivitaNettiData(publicIp);
 
 const showImg = async (ctx, next) => {
     const imageBuf = await Deno.readFile('./static/RiimalaJouni.jpg');
