@@ -50,22 +50,24 @@ const paivitaNettiData = async (publicIp) => {
     await fetch(`http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`)
         .then((res) => res.json())
         .then((data) => {
-            if (data.error.code === 104) {
-                console.log('IP check limit reached from this month');
-                loc.ip = 'IP check limit reached from this month';
-                check = false;
-            } else {
-                (loc.ip = data.ip),
-                    (loc.continent = data.continent_name),
-                    (loc.country = data.country_name),
-                    (loc.region = data.region_name),
-                    (loc.city = data.city),
-                    (loc.zip = data.zip);
+            if (data.length > 0) {
+                if (data.error.code === 104) {
+                    console.log('IP check limit reached from this month');
+                    loc.ip = 'IP check limit reached from this month';
+                    check = false;
+                } else {
+                    (loc.ip = data.ip),
+                        (loc.continent = data.continent_name),
+                        (loc.country = data.country_name),
+                        (loc.region = data.region_name),
+                        (loc.city = data.city),
+                        (loc.zip = data.zip);
+                }
             }
         });
 
     if (check === true) {
-        console.log("check = true ...", loc);
+        console.log('check = true ...', loc);
         let dupCheckResp = await itemServices.checkDup(loc.ip);
         console.log('dupCheckResp:', dupCheckResp);
 
