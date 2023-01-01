@@ -71,7 +71,7 @@ const paivitaNettiData = async (publicIp) => {
         let dupCheckResp = await itemServices.checkDup(loc.ip);
         console.log('dupCheckResp:', dupCheckResp);
 
-        if (loc.ip != '3.75.158.163') {
+        if (loc.ip != '3.75.158.163' || !loc.continent_name) {
             await itemServices.updateTracker(loc);
         } else {
             console.log("Allready there, so let's not duplicate.");
