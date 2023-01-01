@@ -45,9 +45,11 @@
               <div class="yui-u">
                 <p class="enlarge">
                 <h3>
-                  Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling.<br>
-                  Motto: Automate everything.</h3>
-                </p>
+                  Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling.
+                  <pre>
+                  </pre>
+                  <b>Motto:</b> Automate everything.</h3>
+
               </div>
             </div>
             <!--// .yui-gf -->
@@ -67,6 +69,11 @@
                   <h2>Project Management</h2>
                   <p>Years of experience from software project management. Great believer of agile way of working. </p>
                 </div>
+                <div class="talent">
+                  <h2>Looking for</h2>
+                  <p>Hands on position, where I can impact to concreate results either by my own coding, automation or within technical project management.</p>
+                </div>
+
               </div>
             </div>
             <!--// .yui-gf -->
