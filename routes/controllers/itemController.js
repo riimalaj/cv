@@ -15,21 +15,14 @@ import { getNetworkAddr } from 'https://deno.land/x/local_ip/mod.ts';
 import { getPublicIpv4 } from 'https://deno.land/x/masx200_get_public_ip_address/mod.ts';
 import { config, parse } from 'https://deno.land/x/dotenv/mod.ts';
 
-//var check = false;
-
-const netAddr = await getNetworkAddr();
-
 var log = [];
 var temp = format(new Date(), 'yyyy-MM-dd HH:mm:ss');
 var tDate = temp.replace(' ', '_').replace(':', '');
 console.log('Dataa tiedostoon logs/appi_logs_' + tDate + '.log');
-console.log('Your local network address, ', netAddr);
-const publicIp = await getPublicIpv4();
-console.log('Your public ip:', publicIp);
+
 console.log(config({ export: true }));
 const IP_KEY = Deno.env.get('IPKEY');
 console.log('IP_KEY:', IP_KEY);
-let check = true;
 
 if (!IP_KEY || IP_KEY === '') {
     const configData = await config();
@@ -45,9 +38,10 @@ let loc = {
     zip: '',
 };
 
-const paivitaNettiData = async (publicIp) => {
-    console.log('paivitaNettiData, publicIp:', publicIp);
-    await fetch(`http://api.ipstack.com/${publicIp}?access_key=${IP_KEY}`)
+const paivitaNettiData = async () => {
+    const pubIP = getIP()
+    console.log('paivitaNettiData, pubIp:', pubIP + ', key:', IP_KEY);
+    await fetch(`http://api.ipstack.com/${pubIP}?access_key=${IP_KEY}`)
         .then((res) => res.json())
         .then((data) => {
             if (data.length > 0) {
@@ -66,20 +60,25 @@ const paivitaNettiData = async (publicIp) => {
             }
         });
 
-    if (check === true) {
-        console.log('check = true ...', loc);
-        let dupCheckResp = await itemServices.checkDup(loc.ip);
-        console.log('dupCheckResp:', dupCheckResp);
+    let dupCheckResp = await itemServices.checkDup(loc.ip);
+    console.log('dupCheckResp:', dupCheckResp);
 
-        if (loc.ip != '3.75.158.163' || !loc.continent_name) {
-            await itemServices.updateTracker(loc);
-        } else {
-            console.log("Allready there, so let's not duplicate.");
-        }
+    if (dupCheckResp < 1  && loc.continent_name != null) {
+        await itemServices.updateTracker(loc);
+    } else {
+        console.log("Allready there, so let's not duplicate.");
     }
 };
 
-paivitaNettiData(publicIp);
+
+const getIP = async() =>{
+    const netAddr = await getNetworkAddr();
+    console.log('Your local network address, ', netAddr);
+    const publicIp = await getPublicIpv4();
+    console.log('Your public ip:', publicIp);
+return publicIp
+}
+
 
 const showImg = async (ctx, next) => {
     const imageBuf = await Deno.readFile('./static/RiimalaJouni.jpg');
@@ -89,6 +88,7 @@ const showImg = async (ctx, next) => {
 };
 
 const showMain = async ({ response }) => {
+    paivitaNettiData()
     response.body = await renderFile('../views/cv.eta', {
         pvm: new Date().toLocaleDateString(),
         status: 200,
@@ -137,6 +137,7 @@ const loggaus = async (log) => {
 };
 
 export {
+    getIP,
     showImg,
     paivitaNettiData,
     showMain,
