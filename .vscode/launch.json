@@ -10,7 +10,7 @@
             "type":"node",
             "program": "${workspaceFolder}/app.js",
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "C:\\Users\\JouniRiimala\\.deno\\bin\\deno.EXE",
+            "runtimeExecutable": "C:\\Users\\Admin\\.deno\\bin\\deno.EXE",
             "runtimeArgs": [
                 "run",
                 "--inspect-brk",
