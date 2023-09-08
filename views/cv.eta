@@ -63,7 +63,7 @@
 
                 <div class="talent">
                   <h2>Project Management</h2>
-                  <p>Years of experience from software project management (scrum, kanban). Great believer of agile way of working. </p>
+                  <p>Years of experience from software project management (scrum, kanban).</p>
                 </div>
                 <div class="talent">
                   <h2>Looking for</h2>
@@ -84,11 +84,11 @@
                   <li>Other web related: <b>Css, html</b>, php, </li>
                   <li>Databases: <b>Postgres via sql and sequelize</b>, sqlite, myswql (used in personal projs) </li>
                 </ul>
-                <ul class="talent"><b>
-                    <li>Atlassian Jira & Confluence</li>
+                <ul class="talent">
+                    <li><b>Atlassian Jira & Confluence</b></li>
                     <li><b>Git</b>, CVS / Subversion / TFS </li>
-                    <li class="last">Docker</li>
-                  </b>
+                    <li class="last"><b>Docker</b></li>
+                  
                 </ul>
                 <ul class="talent">
                   <li>UiPath</li>
