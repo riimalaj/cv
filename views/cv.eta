@@ -25,7 +25,7 @@
           <div class="yui-u">
             <div class="contact-info">
               <h3><a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a></h3>
-              <h3>+358 50 3436251</h3>
+              <h3>(+358) 50 4066956 (cur work),<br>(+358) 50 3436251</h3>
             </div>
             <!--// .contact-info -->
           </div>
@@ -43,9 +43,7 @@
               </div>
               <div class="yui-u">
                 <p class="enlarge">
-                <h3>
-                  Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling.<br>
-                  Motto: Automate everything..</h3>
+                <h3>Motivated and target-oriented guy. Passionate from technical side of life, sport and motorcycling. <b>Motto:</b> Automate everything..</h3>
                 </p>
               </div>
             </div>
@@ -59,12 +57,12 @@
 
                 <div class="talent">
                   <h2>General</h2>
-                  <p>Experienced from software development, release management, project management.</p>
+                  <p>Experienced from software development, release management, project management, backlog handling.</p>
                 </div>
 
                 <div class="talent">
                   <h2>Project Management</h2>
-                  <p>Years of experience from software project management. Great believer of agile way of working. </p>
+                  <p>Years of experience from software project management (scrum, kanban). Great believer of agile way of working. </p>
                 </div>
               </div>
             </div>
@@ -72,39 +70,28 @@
             <div class="yui-gf">
               <div class="yui-u first">
                 <h2>Tech stack</h2>
+                <h4>(bolded ones using in work)</h4>
               </div>
               <div class="yui-u">
                 <ul class="talent">
-                  <li>HTML</li>
-                  <li>CSS </li>
-                  <li>Material UI</li>
-                  <li>Postgres</li>
-                  <li>Deno (JS-lib)</li>
-                  <li>React (JS-lib)</li>
-                  <li class="last">Node (JS-lib)</li>
+                  <li>JS Frontend (<b>React</b>, Deno, svelte), Backend: <b>Node JS</b></li>
+                  <li>Other web related: <b>Css, html</b>, php, </li>
+                  <li>Databases: <b>Postgres via sql and sequelize</b>, sqlite, myswql (used in personal projs) </li>
+                </ul>
+                <ul class="talent"><b>
+                    <li>Atlassian Jira & Confluence</li>
+                    <li><b>Git</b>, CVS / Subversion / TFS </li>
+                    <li class="last">Docker</li>
+                  </b>
                 </ul>
                 <ul class="talent">
-                  <li>Jira</li>
-                  <li>Confluence</li>
-                  <li>CVS / Subversion / TFS / Git</li>
-                  <li>MVC- architechture</li>
-                  <li>OAK (The main architecture of middleware frameworks)</li>
-                  <li class="last">Docker</li>
-                </ul>
-                <ul class="talent">
-                  <li>MySql</li>
-                  <li>PHP</li>
-                  <li>Svelte (JS-lib)</li>
-                  <li>Python</li>
                   <li>UiPath</li>
                   <li>Robot Framework</li>
                   <li>Java</li>
                   <li>VMWARE, Virtualbox</li>
                   <li class="last">Qt</li>
                 </ul>
-                <p>Currently working in the Web - development with development and management responsibilities.<br>
-                  Using <b>heavily</b> techs indicated in the left and center columns.
-                </p>
+
 
               </div>
             </div>
@@ -217,25 +204,22 @@
             </div>
             <!--// .yui-gf recom - tittle -->
 
-          </div>
-          <!--// yui-main -->
-        </div>
-        <!--// .yui-b -->
+            <!--// .yui-b -->
 
-        <div id="ft">
-          <p>Jouni Riimala<br>
-            <a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a>
-            <br>(+358) 50 3436251
-            <br><a href="https://www.linkedin.com/in/jouni-riimala-04330/">LinkedIn profile</a>
-          </p>
-          Updated <%= it.pvm %>
+            <div id="ft">
+              <p>Jouni Riimala<br>
+                <a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a>
+                <br>(+358) 50 3436251
+                <br><a href="https://www.linkedin.com/in/jouni-riimala-04330/">LinkedIn profile</a>
+              </p>
+              Updated <%= it.pvm %>
+            </div>
+            <!--// footer -->
+          </div><!-- // inner -->
         </div>
-        <!--// footer -->
-      </div><!-- // inner -->
-    </div>
-    <!--// bd -->
-  </div>
-  <!--// doc2 -->
+        <!--// bd -->
+      </div>
+      <!--// doc2 -->
 </body>
 
 </HTML>
