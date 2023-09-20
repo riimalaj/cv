@@ -76,7 +76,7 @@
             <div class="yui-gf">
               <div class="yui-u first">
                 <h2>Tech stack</h2>
-                <h4>(bolded ones using in work)</h4>
+                
               </div>
               <div class="yui-u">
                 <ul class="talent">
@@ -85,7 +85,7 @@
                   <li>Databases: <b>Postgres via sql and sequelize</b>, sqlite, myswql (used in personal projs) </li>
                 </ul>
                 <ul class="talent">
-                    <li><b>Atlassian Jira & Confluence</b></li>
+                    <li><b>Atlassian Jira & Confluence (admin level)</b></li>
                     <li><b>Git</b>, CVS / Subversion / TFS </li>
                     <li class="last"><b>Docker</b></li>
                   
