@@ -26,7 +26,7 @@
           <div class="yui-u">
             <div class="contact-info">
               <h3><a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a></h3>
-              <h3>(+358) 50 4066956 (cur work),<br>(+358) 50 3436251</h3>
+              <h3>(+358) 50 4066956 (cur work)
             </div>
             <!--// .contact-info -->
           </div>
@@ -226,7 +226,7 @@
             <div id="ft">
               <p>Jouni Riimala<br>
                 <a href="mailto:jriimala@gmail.com">Drop me THE mail .. or call.</a>
-                <br>(+358) 50 3436251
+                <br>(+358) 50 4066956
                 <br><a href="https://www.linkedin.com/in/jouni-riimala-04330/">LinkedIn profile</a>
               </p>
               Updated <%= it.pvm %>
