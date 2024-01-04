@@ -11,7 +11,7 @@ configure({
 
 const app = new Application();
 
-let port = 80;
+//let port = 80;
 if (Deno.args.length > 0) {
     const lastArgument = Deno.args[Deno.args.length - 1];
     port = Number(lastArgument);
@@ -19,6 +19,6 @@ if (Deno.args.length > 0) {
 
 app.use(routes);
 
-app.listen(`:${port}`);
+//app.listen(`:${port}`);
 
 export { app };
