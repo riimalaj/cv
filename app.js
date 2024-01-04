@@ -11,7 +11,7 @@ configure({
 
 const app = new Application();
 
-let port = 8888;
+let port = 80;
 if (Deno.args.length > 0) {
     const lastArgument = Deno.args[Deno.args.length - 1];
     port = Number(lastArgument);
